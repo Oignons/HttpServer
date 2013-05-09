@@ -19,6 +19,7 @@ Edit config.json :
     show_directory : show or not the list of files in the directory (like Options-Indexes in Apache)
     http404 : path for http 404 error page
     http403 : path for forbidden page
+    directory_mime_type : mime type for a directory, depends on your computer
 
 
 Start the server with : `$ node main.js`
