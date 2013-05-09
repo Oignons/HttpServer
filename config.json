@@ -1,12 +1,12 @@
 {
 	"http_listen_port" : 1337
-	,"web_directory" : "/home/alexis/dev/web"
+	,"web_directory" : "/path/to/your/web/directory"
 	,"default_index_name" : "index.html"
 	,"show_directory" : true
 
 	,"system_pages" : {
-		"http404" : "/home/alexis/dev/HttpServer/system_pages/404.html"
-		,"http403" : "/home/alexis/dev/HttpServer/system_pages/403.html"
+		"http404" : "/path/to/the/server/HttpServer/system_pages/404.html"
+		,"http403" : "/path/to/the/server/HttpServer/system_pages/403.html"
 	}
 
 	,"directory_mime_type" : "inode/directory"
