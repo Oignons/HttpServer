@@ -17,9 +17,15 @@ Edit config.json :
     web_directory : path to the folder of your files
     default_index_name : name of the file opened if only the directory is specified
     show_directory : show or not the list of files in the directory (like Options-Indexes in Apache)
-    http404 : path for http 404 error page
-    http403 : path for forbidden page
     directory_mime_type : mime type for a directory, depends on where the server is running
 
+    http404 : path for http 404 error page
+    http403 : path for forbidden page
+    css_index_of : path for the CSS file for pages of index
+
+    crumb : path for the little arrow used in index pages, should not change (can be changed if you want though)
+
+
+Put the folder "img-server" in your web directory.
 
 Start the server with : `$ node main.js`
