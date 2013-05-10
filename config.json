@@ -7,6 +7,11 @@
 	,"system_pages" : {
 		"http404" : "/path/to/the/server/HttpServer/system_pages/404.html"
 		,"http403" : "/path/to/the/server/HttpServer/system_pages/403.html"
+		,"css_index_of" : "/path/to/the/server/HttpServer/system_pages/css_index_of.css"
+	}
+
+	,"img" : {
+		"crumb" : "/img-server/crumb.png"
 	}
 
 	,"directory_mime_type" : "inode/directory"
