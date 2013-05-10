@@ -55,8 +55,6 @@ function genIndexOf(path, callback) {
 				detectMIMETypes(path, files, [], 0, function(mimes_types) {
 
 					generated += "<ul id='entry_list'>";
-					//Root dir before
-					generated += "<li class='entry'><a href='/'>/</a></li>";
 
 					for (var i=0; i<files.length; i++) {
 						generated += "<li class='entry'>";
@@ -86,7 +84,6 @@ function genIndexOf(path, callback) {
 
 //Detect the MIME types in order to add a '/' at the end of the name of a directory
 function detectMIMETypes(path, files, mimes_types, i, callback) {
-	console.log("MIME Detection : "+path+files[i]);
 	if (i < files.length) {
 		var magic = new mmm.Magic(mmm.MAGIC_MIME_TYPE);
 		magic.detectFile(path+files[i], function(err, result) {
